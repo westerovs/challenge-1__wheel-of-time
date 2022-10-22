@@ -1,6 +1,4 @@
 # Challenge 1 - Колесо времени
-🟢Плейлист на youtube:<br>
-https://www.youtube.com/playlist?list=PLa7kjSYBEIHxSU5uNm3WF3wOfP_kyPZeD
 <br>
 
 Задача:<br>
