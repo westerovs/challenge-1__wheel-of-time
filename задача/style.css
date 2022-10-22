@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+  user-select: none;
+}
+
+.container {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 104px;
+  height: 24px;
+  perspective: 500px;
+}
+
+.container__inner {
+  width: 104px;
+  height: 24px;
+  transform-style: preserve-3d;
+}
+
+.container__item {
+  position: absolute;
+  min-width: 120px;
+  border: 2px solid black;
+  backface-visibility: hidden;
+  text-align: right;
+  letter-spacing: 2px;
+  color: #e2e2e2;
+  white-space: nowrap;
+}
+
+/* центр времени */
+.container__item-row {
+  min-width: inherit;
+  height: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container__item-row-item {
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+}
